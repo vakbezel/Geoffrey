@@ -31,9 +31,9 @@ async def on_ready():
 	print('ID: ' + bot.user.id)
 
 @bot.command()
-async def test():
+async def Geoffrey():
 	'''Check if the bot is alive'''
-	await bot.say('I\'m here you ding dong')
+	await bot.say('I\'m here, ding dong')
 
 @bot.command(pass_context=True)
 async def addBase(ctx, * args):
