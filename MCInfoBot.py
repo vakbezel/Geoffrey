@@ -31,7 +31,7 @@ async def on_ready():
 	print('ID: ' + bot.user.id)
 
 @bot.command()
-async def Geoffrey():
+async def Geoffrey?():
 	'''Check if the bot is alive'''
 	await bot.say('I\'m here, ding dong')
 
